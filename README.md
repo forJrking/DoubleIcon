@@ -1,6 +1,4 @@
-# DoubleIcon
-
-##动态更换APP Icon
+#动态更换APP Icon
 
 ##原理
 
