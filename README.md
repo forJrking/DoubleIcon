@@ -1,14 +1,13 @@
-#动态更换APP Icon
+# 动态更换APP图标
 
-##原理
+## 原理
 
     
     // 决定应用程序最先启动的Activity 
     android.intent.action.MAIN  
     // 决定应用程序是否显示在程序列表里 
     android.intent.category.LAUNCHER
-    
-  
+
     <activity-alias
        android:name=".DoubleOne"
        android:enabled="false"
@@ -28,4 +27,9 @@
   以及`PackageManager.COMPONENT_ENABLED_STATE_DISABLED` 
   
   这两个标志和对应的`ComponentName`，就可以控制一个组件的是否启用。
-  
+
+## 广告轮播条
+
+效果如下，借用别人gif图
+
+![](0.gif)
