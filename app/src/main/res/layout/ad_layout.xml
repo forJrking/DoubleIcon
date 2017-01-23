@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/r_bg"
+            android:padding="2dp"
+            android:text="热评"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/ad_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:padding="3dp"
+            android:text="小米6s,高通骁龙360+8GB运行"
+            android:textColor="#333"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/r_bg"
+            android:padding="2dp"
+            android:text="热评"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/ad_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:padding="3dp"
+            android:text="ViVO R18,高通骁龙360+8GB运行"
+            android:textColor="#333"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+</LinearLayout>

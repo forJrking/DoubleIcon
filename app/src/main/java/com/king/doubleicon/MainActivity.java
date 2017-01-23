@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new HomeFragment();
                         break;
                     case 1:
-                        fragment = new HomeFragment();
+                        fragment = new FlipperFragment();
                         break;
                     case 2:
                         fragment = new HomeFragment();
